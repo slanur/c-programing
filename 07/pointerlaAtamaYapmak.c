@@ -13,7 +13,7 @@ void atama_yap_2(int* x){
     *x=30;
 }//pointerlarla fonksiyona parametre olarak gelen değişkenin değeri değiştirilebilir
 
-int main(int argc, const char * argv[]) {
+int main(void) {
     int a=5;
     printf("%d\n",a);
     
