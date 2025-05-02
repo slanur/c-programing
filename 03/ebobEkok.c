@@ -35,23 +35,10 @@ int main(void) {
     if (ebob==0) ebob=1;
     printf("%d ve %d sayılarının obebi:%d\n",sml,lrg,ebob);
     /*
-     ekok:ebob*sml/ebob*lrg/ebob
+     ekok:ebob*(sml/ebob)*(lrg/ebob)
      */
     ekok=ebob*(sml/ebob)*(lrg/ebob);
     printf("%d ve %d sayısının ekoku :%d\n",sml,lrg,ekok);
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
     return 0;
 }
