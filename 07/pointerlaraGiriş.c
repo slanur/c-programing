@@ -10,4 +10,5 @@
  int y=5;
  int *yPtr=&y;
  & işareti adres tuttuğunu ifade eder
+ * işaretiyle tuttuğu değere ulaşabiliriz
  */
