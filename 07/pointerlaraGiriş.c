@@ -9,4 +9,5 @@
  POİNTER TANIMLAMA
  int y=5;
  int *yPtr=&y;
+ & işareti adres tuttuğunu ifade eder
  */
