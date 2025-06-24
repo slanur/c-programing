@@ -12,8 +12,7 @@ int main(void) {
     printf("Adınız nedir:");
     //fgets(dizinin adi,büyüklüğü,stdin);
     fgets(name,30,stdin);
-    printf("%s\n",name);
-    
-    
+    printf("%s\n",name);    
     return 0;
 }
+// fgets fonksiyonu, kullanıcıdan alınan stringin sonuna yeni satır karakteri (\n) ekliyor.
