@@ -41,7 +41,7 @@ int main(int argc, const char * argv[]) {
         fprintf(fptr,"----------------------------------------\n");
         printf("data was written to successfully\n");
     }
-    
+    //fgets ile sadece bir satır alabiliyoruz
     fclose(fptr);
     return 0;
 }
