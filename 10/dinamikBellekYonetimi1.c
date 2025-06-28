@@ -15,8 +15,10 @@ int main(void) {
     /*
      bazı fonksiyonlar var ve bunlar #include <stdlib.h> kütüphanesi içinde
      malloc(memory allocation)=hafıza tahsisi
-     calloc(contiguous allocation)=bitişik tahsis
-     realloc(reallocation)=gerçek lokasyon
+     calloc=Bellek ayırır ve sıfırla başlatır
+         dizi = (int *)calloc(5, sizeof(int));  // 5 adet int, her biri sıfır
+     realloc=Daha önce ayrılan belleği yeniden boyutlandırır
+       dizi = (int *)realloc(dizi, 5 * sizeof(int));
      free=serbest bırakmak
      */
     //malloc bellekte, belirtilen  byte kadar yer kaplıyor
